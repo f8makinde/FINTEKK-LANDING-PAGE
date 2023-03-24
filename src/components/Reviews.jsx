@@ -38,21 +38,21 @@ const Reviews = () => {
         }
   return (      
        <div className='flex flex-col md:flex-row gap-2'>
-                <div className='bg-white px-12 py-6 flex flex-col space-y-2'>
+                <div className='bg-white px-12 py-6 flex flex-col space-y-2  md:text-left text-center'>
                 <p className='text-[#3A3A3A] text-xl'>{text}</p>
                 <h1 className='text-[#172E80] text-2xl'>{name}</h1>
-                <div>
+                <div className='md:mx-0 mx-auto'>
                 <img src={stars} alt={name} />
                 </div>
             
                 </div>
-                <div className='flex flex-col justify-center w-14 items-center space-y-3'>
-                   <FaArrowUp onClick={prev} size={20}/>
+                <div className='flex flex-row md:flex-col mx-auto justify-center w-14 gap-3 items-center'>
+                   <FaArrowUp onClick={prev} size={20} className='text-[#172E80]'/>
                   
-                   <button className='py-2 px-4 rounded-full' onClick={handleChange}>{1}</button>
-                    <button className='py-2 px-4 rounded-full' onClick={handleChange}>{2}</button>
-                    <button className='py-2 px-4 rounded-full' onClick={handleChange}>{3}</button>
-                   <FaArrowDown onClick={next} size={20} />
+                   <button className='md:py-2 px-2 md:px-4 rounded-full' onClick={handleChange}>{1}</button>
+                    <button className='md:py-2 px-2 md:px-4 rounded-full' onClick={handleChange}>{2}</button>
+                    <button className='md:py-2 px-2 md:px-4  rounded-full' onClick={handleChange}>{3}</button>
+                   <FaArrowDown onClick={next} size={20} className='text-[#172E80]'/>
                 </div>
         </div>
   )

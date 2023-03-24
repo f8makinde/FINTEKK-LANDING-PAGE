@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
 import Testimonial from './components/Testimonial'
+import Email from './components/Email'
 function App() {
   useEffect(() => {
     AOS.init();
@@ -24,6 +25,7 @@ function App() {
       <FinancialGoals />
       <Faq />
       <Testimonial />
+      <Email />
     </>
   )
 
