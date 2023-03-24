@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "countup.js": "^2.6.0",
     "product-sans-webfont": "^1.0.0",
     "react": "^18.2.0",
+    "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

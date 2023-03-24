@@ -5,8 +5,15 @@ import FinancialGoals from './components/FinancialGoals'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import OurServices from './components/OurServices'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+import Testimonial from './components/Testimonial'
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return(
     <>
       <Navbar />
@@ -16,6 +23,7 @@ function App() {
       <OurServices />
       <FinancialGoals />
       <Faq />
+      <Testimonial />
     </>
   )
 
