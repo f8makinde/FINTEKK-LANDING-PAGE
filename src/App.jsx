@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react'
 import Testimonial from './components/Testimonial'
 import Email from './components/Email'
+import Footer from './components/Footer'
 function App() {
   useEffect(() => {
     AOS.init();
@@ -26,6 +27,7 @@ function App() {
       <Faq />
       <Testimonial />
       <Email />
+      <Footer />
     </>
   )
 

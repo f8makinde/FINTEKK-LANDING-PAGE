@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
             </div>
            
-                <div className='md:hidden flex justify-between px-4'>
+                <div className='md:hidden flex justify-between p-4'>
                 <div>
                     <img src={LogoImg} alt='logo-img' className='w-[4.25rem] object-cover'/> 
                  </div>

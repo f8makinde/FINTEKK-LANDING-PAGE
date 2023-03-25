@@ -5,7 +5,7 @@ const FinancialGoals = () => {
   return (
     <div className='w-full'>
       <div className='max-w-[1540px] px-2 py-32 mx-auto'>
-        <div className='grid md:grid-cols-2 mx-auto overflow-hidden px-2 justify-between'>
+        <div className='grid md:grid-cols-2 mx-auto overflow-hidden px-2 justify-between gap-3'>
             <div 
             data-aos="fade-right"
             data-aos-offset="300"
