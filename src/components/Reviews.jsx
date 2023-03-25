@@ -49,9 +49,9 @@ const Reviews = () => {
                 <div className='flex flex-row md:flex-col mx-auto justify-center w-14 gap-3 items-center'>
                    <FaArrowUp onClick={prev} size={20} className='text-[#172E80]'/>
                   
-                   <button className='md:py-2 px-2 md:px-4 rounded-full' onClick={handleChange}>{1}</button>
-                    <button className='md:py-2 px-2 md:px-4 rounded-full' onClick={handleChange}>{2}</button>
-                    <button className='md:py-2 px-2 md:px-4  rounded-full' onClick={handleChange}>{3}</button>
+                   <button className='px-2 rounded-full text-[#3A3A3A] focus:text-white focus:bg-[#172E80] bg-transparent' onClick={handleChange}>{1}</button>
+                    <button className='px-2 rounded-full  focus:text-white focus:bg-[#172E80] text-[#3A3A3A] bg-transparent' onClick={handleChange}>{2}</button>
+                    <button className='px-2  focus:text-white  active:text-white active:bg-[#172E80] focus:bg-[#172E80] rounded-full text-[#3A3A3A] bg-transparent' onClick={handleChange}>{3}</button>
                    <FaArrowDown onClick={next} size={20} className='text-[#172E80]'/>
                 </div>
         </div>

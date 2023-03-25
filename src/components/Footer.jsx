@@ -28,9 +28,9 @@ const Footer = () => {
           </div>
 
          </div>
-         <div className='text-xl text-[#172E80] flex md:flex-row flex-col font-medium gap-2 justify-between py-10'>
-              <h1>Copyright 2023 fintekk. All rights reserved</h1>
-              <h1>Terms and Conditions, Privacy Policy</h1>
+         <div className='text-xl text-[#172E80] flex md:flex-row flex-col font-medium gap-2 justify-between py-20'>
+              <h1>@Copyright 2023 fintekk. All rights reserved</h1>
+              <h1 className='md:flex hidden'>Terms and Conditions, Privacy Policy</h1>
           </div>
       </div>
     </div>

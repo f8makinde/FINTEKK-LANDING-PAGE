@@ -10,17 +10,17 @@ const Navbar = () => {
             <div className='md:flex hidden items-center justify-between'>
             <img src={LogoImg} alt='logo-img' />
             <ul className='flex items-center'>
-                <li className='px-3 lg:text-lg text-[#171717]'>Home</li>
-                <li className='px-3 lg:text-lg text-[#171717]'>About</li>
-                <li className='px-3 lg:text-lg text-[#171717]'>FAQs</li>
-                <li className='px-3 lg:text-lg text-[#171717]'>Contact Us</li>
+                <li className='px-3 lg:text-2xl md:text-xl text-[#171717]'><a href=''>Home</a></li>
+                <li className='px-3 lg:text-2xl md:text-xl text-[#171717]'><a href=''>About</a></li>
+                <li className='px-3 lg:text-2xl md:text-xl text-[#171717]'><a href=''>FAQs</a></li>
+                <li className='px-3 lg:text-2xl md:text-xl text-[#171717]'><a href=''>Contact Us</a></li>
             </ul>
             <div className='flex gap-6'>
                 <div>
-                <button className='py-3 px-6  border border-[#2E5CFF] bg-transparent text-[#2E5CFF] rounded-xl font-medium'>Login</button>
+                <button className='py-3 px-6  border border-[#2E5CFF] bg-transparent text-[#2E5CFF] rounded-xl font-medium'><a href=''>Login</a></button>
                 </div>
                 <div>
-                <button className='py-3 px-6  border border-[#2E5CFF] rounded-xl font-medium'>Sign Up for Free</button>
+                <button className='py-3 px-6  border border-[#2E5CFF] rounded-xl font-medium'><a href=''>Sign Up for Free</a></button>
                 </div>
                 </div>
             </div>
@@ -36,14 +36,14 @@ const Navbar = () => {
           
         <div className={showNav ? 'md:hidden flex flex-col justify-between px-4' : 'hidden'}> 
             <ul className='py-2'>
-                <li className='py-2 lg:text-lg text-[#171717]'>Home</li>
-                <li className='py-2 lg:text-lg text-[#171717]'>About</li>
-                <li className='py-2 lg:text-lg text-[#171717]'>FAQs</li>
-                <li className='py-2 lg:text-lg text-[#171717]'>Contact Us</li>
+                <li className='py-2 lg:text-lg text-[#171717]'><a href=''>Home</a></li>
+                <li className='py-2 lg:text-lg text-[#171717]'><a href=''>About</a></li>
+                <li className='py-2 lg:text-lg text-[#171717]'><a href=''>FAQs</a></li>
+                <li className='py-2 lg:text-lg text-[#171717]'><a href=''>Contact Us</a></li>
             </ul>
             <div className='flex flex-wrap gap-6'>
-                <button className='w-full py-3 px-4  border border-[#2E5CFF] bg-transparent text-[#2E5CFF] rounded-xl font-medium'>Login</button>
-                <button  className='w-full py-3 px-6  border border-[#2E5CFF] rounded-xl font-medium'>Sign Up for Free</button>
+                <button className='w-full py-3 px-4  border border-[#2E5CFF] bg-transparent text-[#2E5CFF] rounded-xl font-medium'><a href=''>Login</a></button>
+                <button  className='w-full py-3 px-6  border border-[#2E5CFF] rounded-xl font-medium'><a href=''>Sign Up for Free</a></button>
                 </div>
             </div>
         </div>
